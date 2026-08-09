@@ -4,8 +4,11 @@ using namespace std;
 void sort(int arr[],int n)
 {
    int left = 0 , right = n-1 ;
-
+   int step = 0;
    while(left < right){
+    cout<<"step"<<step<<endl;
+    print_array(arr,n);
+    cout<<endl;
       
     while (arr[left] == 0 ){
         left ++;
